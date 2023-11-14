@@ -10,7 +10,7 @@ module.exports = function (app) {
       const notes = JSON.parse(fileContents);
       res.json(notes);
     } else {
-        res.json("[]")
+      res.json("[]")
     }
   });
 
